@@ -1,0 +1,25 @@
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.not-found svg{
+    font-size: 15vw !important;
+}
+
+.not-found-title {
+    margin-top: 2rem;
+}
+
+.not-found-title a {
+    color: #6da6d5;
+}
+
+.not-found-title a:hover{
+    color:#d9eeff
+}

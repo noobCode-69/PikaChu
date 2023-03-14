@@ -1,0 +1,33 @@
+.pokemonlist-container {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: grid;
+    grid-gap: 0.5rem;
+    justify-items: stretch;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}   
+
+
+
+.pokemonlist-load-more-button {
+   
+    text-align: center;
+    padding : 5px;
+    background-color: #292f37;
+    border : 1px solid #444e5b;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: 1.4;
+    color: #99d4ff;
+} 
+
+.pparent {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+} 

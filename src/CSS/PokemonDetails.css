@@ -1,0 +1,136 @@
+.pokemon-details-container {
+    margin-top: 1rem;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon-details-poster-container {
+    padding: 0.25rem;
+    width: 18vw;
+    min-width: 225px;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #202020;
+    align-self: flex-start;
+}
+
+.pokemon-details-poster-container h3 {
+    color: #6da6d5;
+    text-align: center;
+    width: 90%;
+}
+
+.pokemon-details-description {
+    text-align: justify;
+    font-size: 0.9rem;
+    width: 90%;
+}
+
+.pokemon-details-poster-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.pokemon-details-info-container {
+    width: 40vw;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.pokemon-details-info-container>* {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #262626;
+}
+
+.pokemon-details-info {
+    display: flex;
+}
+
+
+
+
+
+.pokemon-details-info-label {
+    width: 110px;
+    flex-shrink: 0;
+}
+
+
+.pokemon-details-genre-ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.pokemon-details-genre-li {
+    margin-right: 0.5rem;
+}
+
+
+
+.info-fragment>* {
+    margin-bottom: 0.5rem;
+}
+
+.info-fragment>:last-child {
+    margin-bottom: 1rem;
+}
+
+.info-fragment-title {
+    font-size: 1.75rem;
+    color: #6da6d5;
+    margin-bottom: 1rem;
+}
+
+
+
+.cast-info-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cast-info-img-container {
+    width: 30px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.cast-info-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.cast-info-details span:hover {
+    color: #6da6d5;
+    cursor: pointer;
+}
+
+
+.similar-pokemon-container {
+    width: 100%;
+    display: grid;
+    grid-gap: 0.5rem;
+
+    justify-items: stretch;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .pokemon-details-container {
+        flex-direction: column;
+    }
+
+    .pokemon-details-poster-container {
+        margin-bottom: 3rem;
+    }
+}
