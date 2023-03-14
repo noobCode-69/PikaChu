@@ -14,8 +14,14 @@ To use this app, you'll need to have Node.js and npm installed on your machine. 
 1) View a list of Pokemon
 2) Search for specific Pokemon by name or ID
 3) View details of each Pokemon, including their stats, abilities, and type(s)
+## Technologies
+This app was built using the following technologies:
+1) React
+2) React Router
+3) PokeAPI
+4) Redux
 
-Live Demo
+## Live Demo
 This project is deployed over Vercel. You can see a live demo of this app at https://pika-chu.vercel.app.
 
 Contributing
